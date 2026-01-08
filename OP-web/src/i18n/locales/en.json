@@ -1,0 +1,224 @@
+{
+  "nav": {
+    "discover": "Discover",
+    "explore": "Explore",
+    "hub": "Hub",
+    "org": "Organization",
+    "profile": "Profile",
+    "home": "Home"
+  },
+  "auth": {
+    "login": "Login",
+    "loginWith": "Login with {{provider}}",
+    "logout": "Logout",
+    "welcome": "Welcome Back",
+    "welcomeDescription": "Connect your development identity to unlock the full experience.",
+    "continueWith": "Continue with {{provider}}",
+    "comingSoon": "{{provider}} (Coming Soon)",
+    "benefits": "Benefits",
+    "syncContributions": "Sync Contributions",
+    "joinCommunities": "Join Communities",
+    "agreeTerms": "By continuing, you agree to our Terms and Privacy Policy."
+  },
+  "landing": {
+    "betaBadge": "v2.0 Beta is now live",
+    "heroTitle": "The Future of",
+    "heroTitleHighlight": "Open Source",
+    "heroTitleSuffix": "Collaboration",
+    "heroSubtitle": "Connect your developer identity, earn rewards for contributions, and collaborate in real-time. The first platform to unify code, community, and incentives.",
+    "startContributing": "Start Contributing",
+    "exploreFeatures": "Explore Features",
+    "stats": {
+      "organizations": "Organizations",
+      "developers": "Developers",
+      "distributed": "Distributed",
+      "countries": "Countries"
+    },
+    "featuresTitle": "Everything you need to",
+    "featuresTitleHighlight": "grow",
+    "featuresSubtitle": "A complete ecosystem designed to supercharge open source communities and reward meaningful contributions.",
+    "features": {
+      "codeNexus": {
+        "title": "Code Nexus",
+        "description": "Aggregate repositories from GitHub, GitLab, and more. Manage your entire contribution portfolio in one unified dashboard."
+      },
+      "incentive": {
+        "title": "Incentive System",
+        "description": "Gamify contributions with quests, leaderboards, and XP. Reward your community automatically with token distributions."
+      },
+      "chat": {
+        "title": "Contextual Chat",
+        "description": "Discord-style communication rooms integrated directly with your repositories, issues, and pull requests."
+      },
+      "orgHub": {
+        "title": "Organization Hub",
+        "description": "Dedicated profile pages for organizations to showcase projects, members, and available bounties."
+      },
+      "discovery": {
+        "title": "Smart Discovery",
+        "description": "AI-powered recommendations to help developers find the perfect organizations based on their skills and interests."
+      },
+      "sync": {
+        "title": "Instant Sync",
+        "description": "Real-time synchronization of contributions and profile stats across all connected code platforms."
+      }
+    }
+  },
+  "discover": {
+    "title": "Discover Organizations",
+    "subtitle": "Explore 5,000+ open source organizations. Find your next project, earn incentives, and make an impact.",
+    "searchPlaceholder": "Search organizations, tags, or technology...",
+    "members": "{{count}} members",
+    "viewOrg": "View Org",
+    "viewDetails": "View Details",
+    "incentiveProgram": "Incentive Program",
+    "chatRoom": "Chat Room",
+    "allFilters": "All Filters",
+    "demo": "Demo",
+    "verified": "Verified",
+    "noDescription": "No description",
+    "tags": {
+      "all": "All",
+      "aiml": "🤖 AI/ML",
+      "web3": "🌐 Web3",
+      "mobile": "📱 Mobile",
+      "cloud": "☁️ Cloud Native",
+      "tools": "🔧 Tools"
+    }
+  },
+  "org": {
+    "overview": "Overview",
+    "repos": "Repositories",
+    "incentive": "Incentive",
+    "members": "Members",
+    "description": "Description",
+    "platforms": "Platforms",
+    "joinedOn": "Joined on {{date}}",
+    "website": "Website",
+    "email": "Email",
+    "location": "Location",
+    "stars": "Stars",
+    "joinSpace": "Join Space",
+    "viewIncentives": "View Incentives",
+    "topRepositories": "Top Repositories",
+    "public": "Public",
+    "noRepos": "No repositories found"
+  },
+  "incentive": {
+    "title": "Incentive Program",
+    "points": "Points",
+    "availablePoints": "Available Points",
+    "totalPoints": "Total Points",
+    "level": "Level",
+    "campaigns": "Campaigns",
+    "tasks": "Tasks",
+    "prizes": "Prizes",
+    "leaderboard": "Leaderboard",
+    "completedTasks": "Completed Tasks",
+    "inProgress": "In Progress",
+    "notStarted": "Not Started",
+    "claimReward": "Claim Reward",
+    "limited": "Limited",
+    "permanent": "Permanent",
+    "rank": "Rank",
+    "contributions": "Contributions",
+    "backToOrg": "Back to Organization",
+    "joinChatRoom": "Join Chat Room",
+    "limitedCampaigns": "Limited Time Campaigns",
+    "permanentCampaigns": "Permanent Campaigns",
+    "activity": "Activity",
+    "completed": "Completed",
+    "claim": "Claim",
+    "claimed": "Claimed",
+    "soldOut": "Sold Out",
+    "redeem": "Redeem",
+    "pointsNeeded": "{{points}} Points Needed",
+    "remaining": "{{count}} Remaining",
+    "claimedBy": "Claimed by {{count}}",
+    "tasksCompleted": "{{completed}}/{{total}} Tasks",
+    "goToChat": "Go to Chat",
+    "overview": "Overview",
+    "description": "Complete tasks, earn points, redeem prizes",
+    "deadline": "Deadline",
+    "noActivities": "No activities yet",
+    "selectCampaign": "Please select a campaign to view tasks",
+    "prizeStore": "Prize Store",
+    "prizeStoreDescription": "Redeem amazing prizes with your points",
+    "noPrizes": "No prizes available",
+    "contributorLeaderboard": "Contributor Leaderboard",
+    "leaderboardDescription": "View the most active contributors in the community",
+    "noLeaderboard": "No leaderboard data",
+    "you": "You",
+    "chatRequired": "Chat room required",
+    "limitedStock": "Limited",
+    "stock": "Stock",
+    "insufficientPoints": "Insufficient Points",
+    "activities": "Activities"
+  },
+  "profile": {
+    "title": "Profile",
+    "activity": "Activity",
+    "organizations": "Organizations",
+    "editProfile": "Edit Profile",
+    "settings": "Settings"
+  },
+  "explore": {
+    "title": "Explore",
+    "subtitle": "Discover organizations, Matrix spaces, and communities with AI",
+    "searchPlaceholder": "Search for communities, organizations, or topics...",
+    "searchButton": "Search",
+    "aiOverview": "AI Overview",
+    "resultsFound": "{{count}} results found",
+    "searchingAcross": "Searching across organizations, Matrix spaces, and web",
+    "searchingAllSources": "Searching across all sources...",
+    "noResults": "No results found",
+    "tryDifferentTerm": "Try a different search term",
+    "errorMessage": "Sorry, something went wrong. Please try again.",
+    "connectionError": "Unable to complete search. Please check your connection.",
+    "popularSearches": "Popular Searches",
+    "members": "members",
+    "rooms": "rooms",
+    "badges": {
+      "realOrg": "Real Org",
+      "matrixSpace": "Matrix Space",
+      "web": "Web",
+      "curated": "Curated"
+    },
+    "features": {
+      "realOrgs": {
+        "title": "Real Organizations",
+        "description": "Search your connected GitHub organizations and their communities"
+      },
+      "matrixSpaces": {
+        "title": "Matrix Spaces",
+        "description": "Discover public Matrix rooms and community spaces"
+      },
+      "aiPowered": {
+        "title": "AI-Powered",
+        "description": "Get intelligent answers and recommendations powered by AI"
+      }
+    }
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "all": "All",
+    "none": "None",
+    "admin": "Admin",
+    "confirmDelete": "Are you sure you want to delete?",
+    "deleteSuccess": "Deleted successfully",
+    "deleteFailed": "Failed to delete"
+  }
+}

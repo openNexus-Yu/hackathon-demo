@@ -1,0 +1,224 @@
+{
+  "nav": {
+    "discover": "发现",
+    "explore": "探索",
+    "hub": "枢纽",
+    "org": "组织",
+    "profile": "个人",
+    "home": "首页"
+  },
+  "auth": {
+    "login": "登录",
+    "loginWith": "使用 {{provider}} 登录",
+    "logout": "退出登录",
+    "welcome": "欢迎回来",
+    "welcomeDescription": "连接你的开发者身份，解锁完整体验。",
+    "continueWith": "使用 {{provider}} 继续",
+    "comingSoon": "{{provider}} (即将推出)",
+    "benefits": "权益",
+    "syncContributions": "同步贡献",
+    "joinCommunities": "加入社区",
+    "agreeTerms": "继续即表示您同意我们的条款和隐私政策。"
+  },
+  "landing": {
+    "betaBadge": "v2.0 Beta 现已上线",
+    "heroTitle": "开源的未来",
+    "heroTitleHighlight": "协作",
+    "heroTitleSuffix": "",
+    "heroSubtitle": "连接你的开发者身份，为贡献赚取奖励，实时协作。首个统一代码、社区和激励的平台。",
+    "startContributing": "开始贡献",
+    "exploreFeatures": "探索功能",
+    "stats": {
+      "organizations": "组织",
+      "developers": "开发者",
+      "distributed": "已分发",
+      "countries": "国家"
+    },
+    "featuresTitle": "你所需的一切",
+    "featuresTitleHighlight": "成长",
+    "featuresSubtitle": "一个完整的生态系统，旨在为开源社区提供动力并奖励有意义的贡献。",
+    "features": {
+      "codeNexus": {
+        "title": "代码枢纽",
+        "description": "聚合来自 GitHub、GitLab 等的仓库。在一个统一的仪表板中管理你的整个贡献组合。"
+      },
+      "incentive": {
+        "title": "激励系统",
+        "description": "通过任务、排行榜和经验值让贡献游戏化。自动向社区分发代币奖励。"
+      },
+      "chat": {
+        "title": "上下文聊天",
+        "description": "Discord 风格的通信室，直接与你的仓库、问题和拉取请求集成。"
+      },
+      "orgHub": {
+        "title": "组织枢纽",
+        "description": "为组织提供专属资料页面，展示项目、成员和可用赏金。"
+      },
+      "discovery": {
+        "title": "智能发现",
+        "description": "基于开发者技能和兴趣，AI 驱动的推荐帮助找到完美的组织。"
+      },
+      "sync": {
+        "title": "即时同步",
+        "description": "跨所有连接的代码平台实时同步贡献和资料统计。"
+      }
+    }
+  },
+  "discover": {
+    "title": "发现组织",
+    "subtitle": "探索 5000+ 开源组织。找到你的下一个项目，赚取激励，产生影响。",
+    "searchPlaceholder": "搜索组织、标签或技术...",
+    "members": "{{count}} 位成员",
+    "viewOrg": "查看组织",
+    "viewDetails": "查看详情",
+    "incentiveProgram": "激励计划",
+    "chatRoom": "聊天室",
+    "allFilters": "全部筛选",
+    "demo": "演示",
+    "verified": "已验证",
+    "noDescription": "暂无描述",
+    "tags": {
+      "all": "全部",
+      "aiml": "🤖 AI/ML",
+      "web3": "🌐 Web3",
+      "mobile": "📱 移动",
+      "cloud": "☁️ 云原生",
+      "tools": "🔧 工具"
+    }
+  },
+  "org": {
+    "overview": "概览",
+    "repos": "仓库",
+    "incentive": "激励",
+    "members": "成员",
+    "description": "简介",
+    "platforms": "平台",
+    "joinedOn": "加入于 {{date}}",
+    "website": "网站",
+    "email": "邮箱",
+    "location": "位置",
+    "stars": "星标",
+    "joinSpace": "加入空间",
+    "viewIncentives": "查看激励",
+    "topRepositories": "热门仓库",
+    "public": "公开",
+    "noRepos": "未找到仓库"
+  },
+  "incentive": {
+    "title": "激励计划",
+    "points": "积分",
+    "availablePoints": "可用积分",
+    "totalPoints": "总积分",
+    "level": "等级",
+    "campaigns": "活动",
+    "tasks": "任务",
+    "prizes": "奖品",
+    "leaderboard": "排行榜",
+    "completedTasks": "已完成任务",
+    "inProgress": "进行中",
+    "notStarted": "未开始",
+    "claimReward": "领取奖励",
+    "limited": "限时",
+    "permanent": "长期",
+    "rank": "排名",
+    "contributions": "贡献",
+    "backToOrg": "返回组织",
+    "joinChatRoom": "加入聊天室",
+    "limitedCampaigns": "限时活动",
+    "permanentCampaigns": "长期活动",
+    "activity": "活动",
+    "completed": "已完成",
+    "claim": "领取",
+    "claimed": "已领取",
+    "soldOut": "已兑完",
+    "redeem": "兑换",
+    "pointsNeeded": "需要 {{points}} 积分",
+    "remaining": "剩余 {{count}}",
+    "claimedBy": "{{count}} 人已领取",
+    "tasksCompleted": "{{completed}}/{{total}} 任务",
+    "goToChat": "前往聊天",
+    "overview": "概览",
+    "description": "完成任务，获取积分，兑换奖品",
+    "deadline": "截止",
+    "noActivities": "暂无活动主题",
+    "selectCampaign": "请选择一个活动查看任务",
+    "prizeStore": "奖品商店",
+    "prizeStoreDescription": "使用积分兑换精美奖品",
+    "noPrizes": "暂无奖品",
+    "contributorLeaderboard": "贡献者排行榜",
+    "leaderboardDescription": "查看社区最活跃的贡献者",
+    "noLeaderboard": "暂无排行榜数据",
+    "you": "你",
+    "chatRequired": "需要加入聊天室",
+    "limitedStock": "限量",
+    "stock": "库存",
+    "insufficientPoints": "积分不足",
+    "activities": "活动"
+  },
+  "profile": {
+    "title": "个人资料",
+    "activity": "动态",
+    "organizations": "组织",
+    "editProfile": "编辑资料",
+    "settings": "设置"
+  },
+  "explore": {
+    "title": "探索",
+    "subtitle": "使用 AI 发现组织、Matrix 空间和社区",
+    "searchPlaceholder": "搜索社区、组织或话题...",
+    "searchButton": "搜索",
+    "aiOverview": "AI 概览",
+    "resultsFound": "找到 {{count}} 个结果",
+    "searchingAcross": "跨组织、Matrix 空间和网络搜索",
+    "searchingAllSources": "正在搜索所有来源...",
+    "noResults": "未找到结果",
+    "tryDifferentTerm": "请尝试其他搜索词",
+    "errorMessage": "抱歉，出现了一些问题。请重试。",
+    "connectionError": "无法完成搜索。请检查网络连接。",
+    "popularSearches": "热门搜索",
+    "members": "成员",
+    "rooms": "房间",
+    "badges": {
+      "realOrg": "真实组织",
+      "matrixSpace": "Matrix 空间",
+      "web": "网络",
+      "curated": "精选"
+    },
+    "features": {
+      "realOrgs": {
+        "title": "真实组织",
+        "description": "搜索你已连接的 GitHub 组织及其社区"
+      },
+      "matrixSpaces": {
+        "title": "Matrix 空间",
+        "description": "发现公开的 Matrix 房间和社区空间"
+      },
+      "aiPowered": {
+        "title": "AI 驱动",
+        "description": "获取由 AI 提供的智能答案和推荐"
+      }
+    }
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "错误",
+    "success": "成功",
+    "cancel": "取消",
+    "confirm": "确认",
+    "save": "保存",
+    "delete": "删除",
+    "edit": "编辑",
+    "close": "关闭",
+    "back": "返回",
+    "next": "下一步",
+    "search": "搜索",
+    "filter": "筛选",
+    "sort": "排序",
+    "all": "全部",
+    "none": "无",
+    "admin": "管理后台",
+    "confirmDelete": "确定要删除吗？",
+    "deleteSuccess": "删除成功",
+    "deleteFailed": "删除失败"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "defaultHomeserver": 0,
+  "homeserverList": [
+    "http://localhost:8008",
+    "matrix.org"
+  ],
+  "allowCustomHomeservers": true,
+  "featuredCommunities": {
+    "openAsDefault": false,
+    "spaces": [],
+    "rooms": [],
+    "servers": [
+      "localhost:8008",
+      "matrix.org"
+    ]
+  },
+  "hashRouter": {
+    "enabled": true,
+    "basename": "/"
+  }
+}
