@@ -1,0 +1,58 @@
+version: '3.8'
+
+services:
+  # Matrix Synapse Homeserver
+  matrix:
+    image: matrixdotorg/synapse:latest
+    container_name: matrix-synapse
+    restart: unless-stopped
+    environment:
+      - SYNAPSE_SERVER_NAME=localhost
+      - SYNAPSE_REPORT_STATS=no
+    volumes:
+      - ./matrix-data:/data
+    ports:
+      - "8008:8008"
+    command: run
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8008/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # PostgreSQL Database with pgvector extension
+  postgres:
+    image: pgvector/pgvector:pg16
+    container_name: opensrc-postgres
+    restart: unless-stopped
+    environment:
+      - POSTGRES_USER=opensrc
+      - POSTGRES_PASSWORD=opensrc_dev_password
+      - POSTGRES_DB=opensrc_platform
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U opensrc -d opensrc_platform"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Nginx reverse proxy
+  nginx:
+    image: nginx:alpine
+    container_name: opensrc-nginx
+    restart: unless-stopped
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./developer-platform/dist:/usr/share/nginx/html/app
+      - ./cinny/dist:/usr/share/nginx/html/chat
+    ports:
+      - "8080:80"
+    depends_on:
+      - matrix
+
+volumes:
+  matrix-data:
+  postgres-data:
